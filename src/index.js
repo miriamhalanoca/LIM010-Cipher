@@ -1,1 +1,1 @@
-/* Acá va tu código */
+const. suario getElementsByClassName('capturar-nombre');

@@ -1,1 +1,22 @@
-/* Acá van tus reglas de estilo */
+
+body {
+  background-image: url(1.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 100000px;
+
+
+}
+
+h1{
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+  font-family: cursive;
+}
+#primera{
+  color: blue;
+  filter: progid: DXImageTransform.Microsoft.gradient
+   (startColorstr = '# d2dfed',
+   endColorstr = '# 799bc8', GradientType = 0); / * IE6-9 * /
+   margin: 7
+}
