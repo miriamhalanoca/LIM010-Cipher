@@ -1,22 +1,100 @@
 
 body {
-  background-image: url(1.jpg);
+  background-image: url(5.jpg);
   background-repeat: no-repeat;
-  background-size: 1500px 100000px;
-
-
+  background-size: 1500px 700px;
+}
+#uname{
+  width: 200px;
+  color:rgb(30, 37, 26);
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
+}
+#contraseña{
+  width: 200px;
+  color:rgb(30, 37, 26);
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
 }
 
-h1{
+#t{
+  font-family: cursive;
+  color:#F134EE;
   font-size: 20px;
+}
+#t0{
+  font-family: cursive;
+  color:#34F1E8;
+  font-size: 20px;
+}
+#t1{
+  font-family: cursive;
+  color:#34F1E8;
+  font-size: 20px;
+}
+
+
+#btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 5px 11px;
+  background-color: rgb(119, 255, 180);
+  border: 1px solid;
+  border-radius: 3px;
+}
+h1{
+  font-size: 40px;
   text-align: center;
   color: blue;
   font-family: cursive;
 }
-#primera{
-  color: blue;
-  filter: progid: DXImageTransform.Microsoft.gradient
-   (startColorstr = '# d2dfed',
-   endColorstr = '# 799bc8', GradientType = 0); / * IE6-9 * /
-   margin: 7
+
+
+.hide{
+    display: none;
 }
+
+body {
+  background-image: url(5.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 700px;
+}
+
+p.p1 {
+  font-size: 20px;
+  text-align: center;
+  color: #F134EE;
+  font-family: cursive;
+}
+
+
+#cifrar{
+display: inline-block;
+margin-top: 12px;
+padding: 5px 11px;
+background-color: rgb(119, 255, 180);
+border: 1px solid;
+border-radius: 3px;
+text-align: center;}
+
+
+
+p.p3 {
+  font-size: 20px;
+  text-align: center;
+  color: #F134EE;
+  font-family: cursive;
+}
+p.p4 {
+  font-size: 20px;
+  text-align: center;
+  color: #F134EE;
+  font-family: cursive;
+}
+ div {
+    text-align: center; 
+    font-family: cursive;}
+
+

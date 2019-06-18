@@ -1,51 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
 
-  </head>
-  <body >
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
 
-    <header>
+</head>
 
-<h1>BIENVENIDO A MENSAJES SEGUROS </h1>
-</header>
-<main>
-<section id="primera">
-  <form>
-  <label for="email-example">INGRESE USUARIO</label>
-  <input
-    type="name"
-    id="capturar-nombre"
-    placeholder="Email"
-    name="email-example"
-    required
-</form>
-/>
+<body>
 
-<form>
-  <label for="password-example">INGRESE CONTRASEÑA</label>
-  <input
-    type="password"
-    id="password-example"
-    placeholder="Password"
-    name="password-example"
-    required
-    />
-<button type="submit">Enviar</button>
-</form>
+  <header>
+
+    <h1>BIENVENIDO A MENSAJES SEGUROS </h1>
+  </header>
+  <main>
+    <section id="pantalla1" class="pantalla1" >
+      <section id="error">  </section>
+
+  
+      <label   id="t0"> INGRESE USUARIO: </label>
+      <input type="text" id="uname" name="nombre">
+      <label for="password" id="t1"> INGRESE CONTRASEÑA: </label>
+      <input type="password"id="contraseña" name="password">
+      <button type="submit" id="btn">INGRESAR</button>
+    </section>
+      
+
+      <section id="pantalla2" class="pantalla2 hide"
+       id="numero de cifrado">
+       
+       <label id="t">INGRESE SU NUMERO DE DESPLAZAMIENTO:</label>
+       <input type="number" id="desplazar" min="1">
+      
+       <br>
+       <p class="p1">INGRESE EL MENSAJE A CIFRAR O DESCIFRAR</p>
+       <div>
+       <textarea class="t1" name="comentarios" rows="5" cols="40" id="texto"> </textarea>
+      </div>
+       
+       <button type="button" id="cifrar">CIFRAR</button>
+       <button type="button" id="descifrar">DESCIFRAR</button>
+       
+       <p class="p3">SU MENSAJE ES:</p>
+       <div>
+       <textarea class="t2" name="comentarios"  id="resultado" rows="5" cols="40"></textarea>
+      </div>
+       <br>
+       <P class="p4">
+       <button type="submit" id="atras">FINALIZAR</button>
+      </P>
       </section>
+    
+  </main>
 
+  <footer>
+  </footer>
 
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
 
-     </main>
-
-    <footer>
-    </footer>
-
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
 </html>
