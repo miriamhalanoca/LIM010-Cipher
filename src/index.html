@@ -9,54 +9,39 @@
 </head>
 
 <body>
-
   <header>
-
     <h1>BIENVENIDO A MENSAJES SEGUROS </h1>
   </header>
   <main>
-    <section id="pantalla1" class="pantalla1" >
-      <section id="error">  </section>
-
-  
-      <label   id="t0"> INGRESE USUARIO: </label>
+    <section id="pantalla1" class="pantalla">
+      <section id="error"> </section>
+      <label> INGRESE USUARIO: </label>
       <input type="text" id="uname" name="nombre">
-      <label for="password" id="t1"> INGRESE CONTRASEÑA: </label>
-      <input type="password"id="contraseña" name="password">
+      <label for="password" class="t1"> INGRESE CONTRASEÑA: </label>
+      <input type="password" id="contraseña" name="password">
       <button type="submit" id="btn">INGRESAR</button>
     </section>
-      
 
-      <section id="pantalla2" class="pantalla2 hide"
-       id="numero de cifrado">
-       
-       <label id="t">INGRESE SU NUMERO DE DESPLAZAMIENTO:</label>
-       <input type="number" id="desplazar" min="1">
-      
-       <br>
-       <p class="p1">INGRESE EL MENSAJE A CIFRAR O DESCIFRAR</p>
-       <div>
-       <textarea class="t1" name="comentarios" rows="5" cols="40" id="texto"> </textarea>
-      </div>
-       
-       <button type="button" id="cifrar">CIFRAR</button>
-       <button type="button" id="descifrar">DESCIFRAR</button>
-       
-       <p class="p3">SU MENSAJE ES:</p>
-       <div>
-       <textarea class="t2" name="comentarios"  id="resultado" rows="5" cols="40"></textarea>
-      </div>
-       <br>
-       <P class="p4">
-       <button type="submit" id="atras">FINALIZAR</button>
-      </P>
+    <section id="pantalla2" class="pantalla2 hide">
+      <section class="pantallaR">
+        <label>INGRESE SU NUMERO DE DESPLAZAMIENTO:</label>
+        <br>
+        <input type="number" id="desplazar" min="1">
+        <br>
+        <p>INGRESE EL MENSAJE A CIFRAR O DESCIFRAR</p>
+        <textarea name="comentarios" rows="5" cols="40" id="texto"> </textarea>
+        <br>
+        <button type="button" id="cifrar">CIFRAR</button>
+        <button type="button" id="descifrar">DESCIFRAR</button>
+        <p>SU MENSAJE ES:</p>
+        <textarea name="comentarios" id="resultado" rows="5" cols="40"></textarea>
+        <br>
+        <button type="submit" id="atras">REGRESAR</button>
       </section>
-    
+    </section>
   </main>
-
   <footer>
   </footer>
-
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>

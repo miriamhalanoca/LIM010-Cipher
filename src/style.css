@@ -1,53 +1,14 @@
 
 body {
-  background-image: url(5.jpg);
+  background-image: url(3.jpg);
   background-repeat: no-repeat;
   background-size: 1500px 700px;
 }
-#uname{
-  width: 200px;
-  color:rgb(30, 37, 26);
-  font-size: 20px;
-  font-family: cursive;
-  text-align: center;
-}
-#contraseña{
-  width: 200px;
-  color:rgb(30, 37, 26);
-  font-size: 20px;
-  font-family: cursive;
-  text-align: center;
-}
 
-#t{
-  font-family: cursive;
-  color:#F134EE;
-  font-size: 20px;
-}
-#t0{
-  font-family: cursive;
-  color:#34F1E8;
-  font-size: 20px;
-}
-#t1{
-  font-family: cursive;
-  color:#34F1E8;
-  font-size: 20px;
-}
-
-
-#btn {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 5px 11px;
-  background-color: rgb(119, 255, 180);
-  border: 1px solid;
-  border-radius: 3px;
-}
 h1{
   font-size: 40px;
   text-align: center;
-  color: blue;
+  color: rgb(81, 7, 255);
   font-family: cursive;
 }
 
@@ -55,46 +16,20 @@ h1{
 .hide{
     display: none;
 }
-
-body {
-  background-image: url(5.jpg);
-  background-repeat: no-repeat;
-  background-size: 1500px 700px;
+.pantalla{
+position:center;
+top:50% ;
+left:50% ;
+text-align: center;
+color: rgb(125, 90, 207);
+font-family: cursive;
+font-size: 40px;
+font-size: 25px;
 }
-
-p.p1 {
-  font-size: 20px;
+.pantallaR{
   text-align: center;
-  color: #F134EE;
+  color: rgb(125, 90, 207);
   font-family: cursive;
-}
-
-
-#cifrar{
-display: inline-block;
-margin-top: 12px;
-padding: 5px 11px;
-background-color: rgb(119, 255, 180);
-border: 1px solid;
-border-radius: 3px;
-text-align: center;}
-
-
-
-p.p3 {
   font-size: 20px;
-  text-align: center;
-  color: #F134EE;
-  font-family: cursive;
 }
-p.p4 {
-  font-size: 20px;
-  text-align: center;
-  color: #F134EE;
-  font-family: cursive;
-}
- div {
-    text-align: center; 
-    font-family: cursive;}
-
 
