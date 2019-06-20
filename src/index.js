@@ -1,7 +1,10 @@
 const pagina1 = document.getElementById('pantalla1');
 const pagina2 = document.getElementById('pantalla2');
 const boton = document.getElementById('btn');
+
+// eslint-disable-next-line no-unused-vars
 const contraseña = document.getElementById('contraseña');
+// eslint-disable-next-line no-unused-vars
 const atras = document.getElementById('atras');
 
 
@@ -27,6 +30,7 @@ boton.addEventListener("click", (event) => {
 });
 
 
+// eslint-disable-next-line no-undef
 cifrar.addEventListener("click", () => {
   let desplazar = parseInt(document.getElementById("desplazar").value)
   let texto = document.getElementById("texto").value;
@@ -34,6 +38,7 @@ cifrar.addEventListener("click", () => {
   document.getElementById("resultado").value = resultadofinal;
 });
 
+// eslint-disable-next-line no-undef
 descifrar.addEventListener("click", () => {
   let desplazar = parseInt(document.getElementById("desplazar").value)
   let texto = document.getElementById("texto").value;
@@ -41,7 +46,9 @@ descifrar.addEventListener("click", () => {
   document.getElementById("resultado").value = resultadofinal;
 });
 
-
+// eslint-disable-next-line no-undef
+botonAtras.addEventListener("click", () => {
+});
 
 
 
