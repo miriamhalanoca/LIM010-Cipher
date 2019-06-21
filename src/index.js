@@ -46,9 +46,5 @@ descifrar.addEventListener("click", () => {
   document.getElementById("resultado").value = resultadofinal;
 });
 
-// eslint-disable-next-line no-undef
-botonAtras.addEventListener("click", () => {
-});
-
 
 
