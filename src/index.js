@@ -46,5 +46,11 @@ descifrar.addEventListener("click", () => {
   document.getElementById("resultado").value = resultadofinal;
 });
 
+  const botonAtras = document.getElementById('atras');
+  botonAtras.addEventListener("click",() =>{
+    pagina2.classList.add("hide");
+  pagina1.classList.remove("hide");
+});
 
 
+ 

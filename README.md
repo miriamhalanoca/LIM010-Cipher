@@ -9,7 +9,8 @@ BIENVENIDO A MENSAJES SEGUROS
 mi proyecto va dirigido a los estudiantes de la universidad para que puedan cifrar o descifrar mensajes que nadie más que ellos sepan para la seguridad de sus mensajes que ellos requieran .
 
 # la imagen final de tu proyecto
-
+![Con titulo]((2).jpeg) "titulo")
+![Con titulo]((1).jpeg) "titulo")
 # investigacion  ux
 Bueno para llegar a esta imagen pregunté a dos personas como veian mi prototipo anterior las personas no estaban conforme con el resultado ya que en la anterior iba a tener 3 botones al final de cuadros una era descifrar la otra cifrar y la otra era volver y bueno una de las personas vio que le era más bonito no involucrar al botón volver con los otros botones por que no se veía tan bien y es por eso que los puse al final de esquina del lado derecho
 Y bueno la otra persona me dijo que estaba bien pero que le pusiera una imagen y eso es lo que se va hacer para la pantalla 1 una imagen que caracterice a la página web
